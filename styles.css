@@ -194,10 +194,25 @@ a.visit__value:hover { color: var(--teal); }
 .footer__inner { max-width: var(--max); margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem; align-items: center; padding-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.12); }
 .footer__brand .brand__name { color: #fff; font-size: 1.5rem; }
 .footer__brand p { color: rgba(255,255,255,0.65); margin-top: 0.3rem; }
-.footer__links { display: flex; flex-wrap: wrap; gap: 1.6rem; }
+.footer__loc { font-size: 0.85rem; letter-spacing: 0.04em; }
+.footer__right { display: flex; flex-direction: column; align-items: flex-end; gap: 1.2rem; }
+.footer__links { display: flex; flex-wrap: wrap; gap: 1.6rem; justify-content: flex-end; }
 .footer__links a { font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.75); transition: color 0.3s; }
 .footer__links a:hover { color: var(--aqua); }
 .footer__copy { max-width: var(--max); margin: 1.5rem auto 0; text-align: center; font-size: 0.8rem; color: rgba(255,255,255,0.5); letter-spacing: 0.04em; }
+
+/* ===== Social icons ===== */
+.socials { display: inline-flex; align-items: center; gap: 0.7rem; }
+.socials a {
+  display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%;
+  border: 1.5px solid var(--teal); color: var(--teal-deep);
+  transition: transform 0.3s ease, background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+.socials a:hover { transform: translateY(-3px); background: linear-gradient(120deg, var(--teal), var(--teal-deep)); color: #fff; box-shadow: var(--shadow); }
+.socials--inline { margin-left: 0.4rem; }
+.socials--footer a { border-color: rgba(255,255,255,0.3); color: rgba(255,255,255,0.85); }
+.socials--footer a:hover { border-color: transparent; background: linear-gradient(120deg, var(--gold-light), var(--gold)); color: #fff; }
+.gallery__cta { display: flex; align-items: center; justify-content: center; gap: 1.2rem; flex-wrap: wrap; }
 
 /* ===== Reveal animation ===== */
 .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.8s ease, transform 0.8s ease; }
