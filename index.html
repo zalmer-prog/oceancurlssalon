@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ocean Curls Salon — Coastal Hair &amp; Beauty</title>
+  <meta name="description" content="Ocean Curls Salon — a group of women loving what we do. Balayage, blondes, cuts, color &amp; makeovers in a warm, coastal space. Book your appointment today." />
+  <meta property="og:title" content="Ocean Curls Salon" />
+  <meta property="og:description" content="Coastal hair &amp; beauty — balayage, blondes, cuts, color &amp; makeovers. A group of women loving what we do." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&family=Sacramento&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="brand" aria-label="Ocean Curls Salon home">
+        <span class="brand__mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="34" height="34">
+            <defs>
+              <linearGradient id="palmGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#e6b366" />
+                <stop offset="1" stop-color="#d68a3c" />
+              </linearGradient>
+            </defs>
+            <path d="M20 12c-4 0-8 2-11 6 3-2 6-2 9-1-4 1-7 4-9 9 3-4 6-6 10-6-3 3-4 7-4 12h4c0-6 1-11 5-14 3 2 5 2 8 2-3-2-5-4-6-7 3 1 5 3 7 6-1-6-6-11-13-11z" fill="url(#palmGrad)" />
+            <path d="M4 30c4-3 8-3 12 0 4-3 8-3 12 0 4-3 6-3 8-2" fill="none" stroke="#2ca6b8" stroke-width="2" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span class="brand__text">
+          <span class="brand__name">Ocean Curls</span>
+          <span class="brand__sub">salon</span>
+        </span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit</a>
+        <a href="#book" class="btn btn--nav">Book Now</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content reveal">
+      <p class="hero__eyebrow">A group of women loving what we do ⭐</p>
+      <h1 class="hero__title">Where the coast<br /><span class="script">meets your</span> curls</h1>
+      <p class="hero__lede">Balayage, blondes, cuts, color &amp; makeovers — crafted in a warm, easy, seaside space made just for you.</p>
+      <div class="hero__cta">
+        <a href="#book" class="btn btn--primary">Book an Appointment</a>
+        <a href="#services" class="btn btn--ghost">View Services</a>
+      </div>
+    </div>
+    <div class="hero__wave" aria-hidden="true">
+      <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,64 C240,120 480,10 720,48 C960,86 1200,110 1440,56 L1440,120 L0,120 Z"></path></svg>
+    </div>
+  </section>
+
+  <!-- Marquee strip -->
+  <div class="strip">
+    <div class="strip__track">
+      <span>Balayage</span><span>&bull;</span><span>Blondes</span><span>&bull;</span><span>Precision Cuts</span><span>&bull;</span><span>Vivid Color</span><span>&bull;</span><span>Makeovers</span><span>&bull;</span><span>Curls &amp; Waves</span><span>&bull;</span>
+      <span>Balayage</span><span>&bull;</span><span>Blondes</span><span>&bull;</span><span>Precision Cuts</span><span>&bull;</span><span>Vivid Color</span><span>&bull;</span><span>Makeovers</span><span>&bull;</span><span>Curls &amp; Waves</span><span>&bull;</span>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <section class="section services" id="services">
+    <div class="section__head reveal">
+      <p class="eyebrow">The Menu</p>
+      <h2>Services made to make you glow</h2>
+      <p class="section__lede">Every appointment starts with a conversation. Pricing starts at the figures below and is finalized after your consultation — hair is personal, and so is your quote.</p>
+    </div>
+    <div class="services__grid">
+      <article class="service-card reveal">
+        <h3>Color &amp; Balayage</h3>
+        <p>Sun-kissed balayage, dimensional blondes, glosses and full color, hand-painted for that lived-in, coastal glow.</p>
+        <span class="service-card__price">from $120</span>
+      </article>
+      <article class="service-card reveal">
+        <h3>Cuts &amp; Styling</h3>
+        <p>Precision cuts, sleek bobs, blowouts and event styling shaped to your face, your hair and your everyday.</p>
+        <span class="service-card__price">from $45</span>
+      </article>
+      <article class="service-card reveal">
+        <h3>Curls &amp; Texture</h3>
+        <p>Curl-loving cuts, smoothing treatments and texture services that let your natural pattern do its thing.</p>
+        <span class="service-card__price">from $65</span>
+      </article>
+      <article class="service-card reveal">
+        <h3>Full Makeovers</h3>
+        <p>Our signature. A complete cut, color and style reveal — the kind that gets its own before-and-after.</p>
+        <span class="service-card__price">from $180</span>
+      </article>
+      <article class="service-card reveal">
+        <h3>Vivid &amp; Fashion Color</h3>
+        <p>Lavenders, pastels and bold statement tones — playful color placed with an artist's eye.</p>
+        <span class="service-card__price">from $150</span>
+      </article>
+      <article class="service-card reveal">
+        <h3>Treatments &amp; Care</h3>
+        <p>Deep conditioning, bond builders and scalp care to keep your color and curls healthy between visits.</p>
+        <span class="service-card__price">from $30</span>
+      </article>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="section__head reveal">
+      <p class="eyebrow">Our Work</p>
+      <h2>Fresh from the chair</h2>
+      <p class="section__lede">A peek at recent makeovers, color and cuts. See more on Instagram — new looks almost every day.</p>
+    </div>
+    <div class="gallery__grid">
+      <figure class="gallery__item gallery__item--tall reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=80" alt="Balayage blonde hair styled in soft waves" /></figure>
+      <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Salon styling station" /></figure>
+      <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Fresh haircut and blowout" /></figure>
+      <figure class="gallery__item gallery__item--wide reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1200&q=80" alt="Stylist working on a client's color" /></figure>
+      <figure class="gallery__item reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?auto=format&fit=crop&w=800&q=80" alt="Long healthy shiny hair" /></figure>
+      <figure class="gallery__item gallery__item--tall reveal"><img loading="lazy" src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=80" alt="Warm brunette color with dimension" /></figure>
+    </div>
+    <div class="gallery__cta reveal">
+      <a href="https://www.instagram.com/ocean__curls_salon/" target="_blank" rel="noopener" class="btn btn--outline">Follow @ocean__curls_salon</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="about__grid">
+      <div class="about__img reveal" aria-hidden="true"></div>
+      <div class="about__text reveal">
+        <p class="eyebrow">Who We Are</p>
+        <h2>A little salon with a big heart by the sea</h2>
+        <p>Ocean Curls Salon is a group of women who genuinely love what we do — and it shows. We believe great hair should feel as good as it looks, so we take our time, listen closely, and treat every guest like a friend who dropped by.</p>
+        <p>Whether you're after a subtle refresh or a head-turning makeover, you'll leave feeling like the most confident version of yourself. Comfy chairs, good conversation, and hair you can't stop touching — that's the Ocean Curls way.</p>
+        <ul class="about__points">
+          <li>Personalized consultations, every visit</li>
+          <li>Color, curls &amp; cuts by a team of specialists</li>
+          <li>A warm, welcoming, women-led space</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials">
+    <div class="section__head reveal">
+      <p class="eyebrow">Kind Words</p>
+      <h2>Loved by our guests</h2>
+    </div>
+    <div class="testimonials__grid">
+      <blockquote class="quote reveal">
+        <div class="quote__stars">★★★★★</div>
+        <p>"Best salon experience I've ever had. My balayage came out exactly how I pictured and the whole team made me feel so at home."</p>
+        <cite>— Jasmine R.</cite>
+      </blockquote>
+      <blockquote class="quote reveal">
+        <div class="quote__stars">★★★★★</div>
+        <p>"They actually know how to cut curly hair! I finally have a shape that works with my texture instead of against it."</p>
+        <cite>— Maria L.</cite>
+      </blockquote>
+      <blockquote class="quote reveal">
+        <div class="quote__stars">★★★★★</div>
+        <p>"Went in for a makeover and cried happy tears. Warm, talented women who truly care. I won't go anywhere else."</p>
+        <cite>— Danielle K.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Visit / Contact / Book -->
+  <section class="section visit" id="visit">
+    <div class="visit__grid">
+      <div class="visit__info reveal">
+        <p class="eyebrow">Visit Us</p>
+        <h2 id="book">Ready for your Ocean Curls moment?</h2>
+        <p class="section__lede">Booking is easiest by phone or DM — reach out and we'll find the perfect time for you.</p>
+        <ul class="visit__list">
+          <li>
+            <span class="visit__label">Call or Text</span>
+            <a href="tel:+10000000000" class="visit__value">(000) 000-0000</a>
+            <span class="visit__note">Add your salon number here</span>
+          </li>
+          <li>
+            <span class="visit__label">Instagram</span>
+            <a href="https://www.instagram.com/ocean__curls_salon/" target="_blank" rel="noopener" class="visit__value">@ocean__curls_salon</a>
+            <span class="visit__note">DM us to book</span>
+          </li>
+          <li>
+            <span class="visit__label">Find Us</span>
+            <span class="visit__value">Your salon address</span>
+            <span class="visit__note">Add your street, city &amp; ZIP</span>
+          </li>
+        </ul>
+        <div class="visit__hours">
+          <h3>Hours</h3>
+          <div class="hours__rows">
+            <div><span>Tue – Fri</span><span>9:00 – 7:00</span></div>
+            <div><span>Saturday</span><span>9:00 – 5:00</span></div>
+            <div><span>Sun – Mon</span><span>Closed</span></div>
+          </div>
+        </div>
+        <div class="visit__buttons">
+          <a href="tel:+10000000000" class="btn btn--primary">Call to Book</a>
+          <a href="https://www.instagram.com/ocean__curls_salon/" target="_blank" rel="noopener" class="btn btn--ghost">DM on Instagram</a>
+        </div>
+      </div>
+      <div class="visit__card reveal">
+        <div class="visit__card-inner">
+          <span class="brand__mark brand__mark--lg" aria-hidden="true">
+            <svg viewBox="0 0 40 40" width="60" height="60">
+              <path d="M20 12c-4 0-8 2-11 6 3-2 6-2 9-1-4 1-7 4-9 9 3-4 6-6 10-6-3 3-4 7-4 12h4c0-6 1-11 5-14 3 2 5 2 8 2-3-2-5-4-6-7 3 1 5 3 7 6-1-6-6-11-13-11z" fill="url(#palmGrad)" />
+              <path d="M4 30c4-3 8-3 12 0 4-3 8-3 12 0 4-3 6-3 8-2" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </span>
+          <p class="script visit__card-script">See you soon</p>
+          <p class="visit__card-text">We can't wait to welcome you to the chair. Come as you are — leave feeling brand new.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="brand__name">Ocean Curls Salon</span>
+        <p>A group of women loving what we do. ⭐</p>
+      </div>
+      <nav class="footer__links">
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#visit">Visit</a>
+        <a href="https://www.instagram.com/ocean__curls_salon/" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+    </div>
+    <p class="footer__copy">© <span id="year"></span> Ocean Curls Salon · Handcrafted with love by the sea</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
