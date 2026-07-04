@@ -67,6 +67,8 @@ img { max-width: 100%; display: block; }
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   padding: 1.1rem 0; transition: background 0.4s ease, box-shadow 0.4s ease, padding 0.4s ease;
 }
+/* scrim behind the transparent top nav so the white logo reads over any photo area */
+.nav:not(.scrolled) { background: linear-gradient(to bottom, rgba(16,44,51,0.6) 0%, rgba(16,44,51,0.28) 50%, rgba(16,44,51,0) 100%); }
 .nav.scrolled { background: rgba(251, 247, 241, 0.92); backdrop-filter: blur(12px); box-shadow: 0 6px 30px -20px rgba(35,66,74,0.5); padding: 0.7rem 0; }
 .nav__inner { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: flex; align-items: center; gap: 0.6rem; }
