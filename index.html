@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ocean Curls Salon — Coastal Hair &amp; Beauty</title>
-  <meta name="description" content="Ocean Curls Salon — a group of women loving what we do. Balayage, blondes, cuts, color &amp; makeovers in a warm, coastal space. Book your appointment today." />
+  <meta name="description" content="Ocean Curls Salon — a group of women loving what we do. Balayage, blondes, cuts, color &amp; makeovers in a warm, coastal space in North Myrtle Beach, SC." />
   <meta property="og:title" content="Ocean Curls Salon" />
   <meta property="og:description" content="Coastal hair &amp; beauty — balayage, blondes, cuts, color &amp; makeovers. A group of women loving what we do." />
   <meta property="og:type" content="website" />
@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- Under-construction banner (fixed) -->
+  <div class="construction" role="status"><span class="construction__full">Pardon our sand — this site is still under construction. Details are placeholders for now.</span><span class="construction__short">Pardon our sand — site under construction</span></div>
+
   <!-- Navigation -->
   <header class="nav scrolled" id="nav">
     <div class="nav__inner">
@@ -40,8 +43,7 @@
         <a href="#services">Services</a>
         <a href="#gallery">Gallery</a>
         <a href="#about">About</a>
-        <a href="#visit">Visit</a>
-        <a href="#book" class="btn btn--nav">Book Now</a>
+        <a href="#visit" class="btn btn--nav">Visit Us</a>
       </nav>
       <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span><span></span>
@@ -56,8 +58,8 @@
       <h1 class="hero__title">Where the coast<br /><span class="script">meets your</span> curls</h1>
       <p class="hero__lede">Balayage, blondes, cuts, color &amp; makeovers — crafted in a warm, easy, seaside space made just for you.</p>
       <div class="hero__cta">
-        <a href="#book" class="btn btn--primary">Book an Appointment</a>
-        <a href="#services" class="btn btn--outline">View Services</a>
+        <a href="#services" class="btn btn--primary">View Services</a>
+        <a href="#gallery" class="btn btn--outline">See Our Work</a>
       </div>
     </div>
     <div class="hero__arches reveal" aria-hidden="false">
@@ -184,23 +186,18 @@
     </div>
   </section>
 
-  <!-- Visit / Contact / Book -->
+  <!-- Visit / Contact -->
   <section class="section visit" id="visit">
     <div class="visit__grid">
       <div class="visit__info reveal">
         <p class="eyebrow">Visit Us</p>
-        <h2 id="book">Ready for your Ocean Curls moment?</h2>
-        <p class="section__lede">Booking is easiest by phone or DM — reach out and we'll find the perfect time for you.</p>
+        <h2>Come see us by the sea</h2>
+        <p class="section__lede">Find us on social — new looks, updates and all things Ocean Curls.</p>
         <ul class="visit__list">
-          <li>
-            <span class="visit__label">Call or Text</span>
-            <a href="tel:+10000000000" class="visit__value">(000) 000-0000</a>
-            <span class="visit__note">Add your salon number here</span>
-          </li>
           <li>
             <span class="visit__label">Instagram</span>
             <a href="https://www.instagram.com/ocean__curls_salon/" target="_blank" rel="noopener" class="visit__value">@ocean__curls_salon</a>
-            <span class="visit__note">DM us to book</span>
+            <span class="visit__note">Our latest work, daily</span>
           </li>
           <li>
             <span class="visit__label">Facebook</span>
@@ -222,9 +219,8 @@
           </div>
         </div>
         <div class="visit__buttons">
-          <a href="tel:+10000000000" class="btn btn--primary">Call to Book</a>
-          <a href="https://www.instagram.com/ocean__curls_salon/" target="_blank" rel="noopener" class="btn btn--ghost">DM on Instagram</a>
-          <a href="https://www.facebook.com/oceancurlssalon/" target="_blank" rel="noopener" class="btn btn--ghost">Facebook</a>
+          <a href="https://www.instagram.com/ocean__curls_salon/" target="_blank" rel="noopener" class="btn btn--primary">Follow on Instagram</a>
+          <a href="https://www.facebook.com/oceancurlssalon/" target="_blank" rel="noopener" class="btn btn--outline">Facebook</a>
         </div>
       </div>
       <div class="visit__card reveal">
