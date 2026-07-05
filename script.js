@@ -4,10 +4,10 @@
   var toggle = document.getElementById('navToggle');
   var links = document.getElementById('navLinks');
 
-  // Sticky nav background on scroll
+  // Nav stays in its cream "scrolled" state — the hero is light now, so the
+  // transparent white-text variant would be unreadable at the top.
   function onScroll() {
-    if (window.scrollY > 40) nav.classList.add('scrolled');
-    else nav.classList.remove('scrolled');
+    nav.classList.add('scrolled');
   }
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();

@@ -16,7 +16,7 @@
 </head>
 <body>
   <!-- Navigation -->
-  <header class="nav" id="nav">
+  <header class="nav scrolled" id="nav">
     <div class="nav__inner">
       <a href="#home" class="brand" aria-label="Ocean Curls Salon home">
         <span class="brand__mark" aria-hidden="true">
@@ -51,16 +51,19 @@
 
   <!-- Hero -->
   <section class="hero" id="home">
-    <div class="hero__bg"></div>
-    <div class="hero__overlay"></div>
     <div class="hero__content reveal">
       <p class="hero__eyebrow">A group of women loving what we do ⭐</p>
       <h1 class="hero__title">Where the coast<br /><span class="script">meets your</span> curls</h1>
       <p class="hero__lede">Balayage, blondes, cuts, color &amp; makeovers — crafted in a warm, easy, seaside space made just for you.</p>
       <div class="hero__cta">
         <a href="#book" class="btn btn--primary">Book an Appointment</a>
-        <a href="#services" class="btn btn--ghost">View Services</a>
+        <a href="#services" class="btn btn--outline">View Services</a>
       </div>
+    </div>
+    <div class="hero__arches reveal" aria-hidden="false">
+      <figure class="arch"><img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=600&q=80" alt="Balayage blonde hair in soft waves" /></figure>
+      <figure class="arch arch--tall"><img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80" alt="Fresh haircut and blowout" /></figure>
+      <figure class="arch"><img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=600&q=80" alt="Warm brunette color with dimension" /></figure>
     </div>
     <div class="hero__wave" aria-hidden="true">
       <svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,64 C240,120 480,10 720,48 C960,86 1200,110 1440,56 L1440,120 L0,120 Z"></path></svg>
@@ -82,36 +85,30 @@
       <h2>Services made to make you glow</h2>
       <p class="section__lede">Every appointment starts with a conversation. Pricing starts at the figures below and is finalized after your consultation — hair is personal, and so is your quote.</p>
     </div>
-    <div class="services__grid">
-      <article class="service-card reveal">
-        <h3>Color &amp; Balayage</h3>
+    <div class="services__menu">
+      <article class="menu-item reveal">
+        <div class="menu-item__line"><h3>Color &amp; Balayage</h3><span class="menu-item__dots"></span><span class="menu-item__price">from $120</span></div>
         <p>Sun-kissed balayage, dimensional blondes, glosses and full color, hand-painted for that lived-in, coastal glow.</p>
-        <span class="service-card__price">from $120</span>
       </article>
-      <article class="service-card reveal">
-        <h3>Cuts &amp; Styling</h3>
+      <article class="menu-item reveal">
+        <div class="menu-item__line"><h3>Cuts &amp; Styling</h3><span class="menu-item__dots"></span><span class="menu-item__price">from $45</span></div>
         <p>Precision cuts, sleek bobs, blowouts and event styling shaped to your face, your hair and your everyday.</p>
-        <span class="service-card__price">from $45</span>
       </article>
-      <article class="service-card reveal">
-        <h3>Curls &amp; Texture</h3>
+      <article class="menu-item reveal">
+        <div class="menu-item__line"><h3>Curls &amp; Texture</h3><span class="menu-item__dots"></span><span class="menu-item__price">from $65</span></div>
         <p>Curl-loving cuts, smoothing treatments and texture services that let your natural pattern do its thing.</p>
-        <span class="service-card__price">from $65</span>
       </article>
-      <article class="service-card reveal">
-        <h3>Full Makeovers</h3>
+      <article class="menu-item reveal">
+        <div class="menu-item__line"><h3>Full Makeovers</h3><span class="menu-item__dots"></span><span class="menu-item__price">from $180</span></div>
         <p>Our signature. A complete cut, color and style reveal — the kind that gets its own before-and-after.</p>
-        <span class="service-card__price">from $180</span>
       </article>
-      <article class="service-card reveal">
-        <h3>Vivid &amp; Fashion Color</h3>
+      <article class="menu-item reveal">
+        <div class="menu-item__line"><h3>Vivid &amp; Fashion Color</h3><span class="menu-item__dots"></span><span class="menu-item__price">from $150</span></div>
         <p>Lavenders, pastels and bold statement tones — playful color placed with an artist's eye.</p>
-        <span class="service-card__price">from $150</span>
       </article>
-      <article class="service-card reveal">
-        <h3>Treatments &amp; Care</h3>
+      <article class="menu-item reveal">
+        <div class="menu-item__line"><h3>Treatments &amp; Care</h3><span class="menu-item__dots"></span><span class="menu-item__price">from $30</span></div>
         <p>Deep conditioning, bond builders and scalp care to keep your color and curls healthy between visits.</p>
-        <span class="service-card__price">from $30</span>
       </article>
     </div>
   </section>
